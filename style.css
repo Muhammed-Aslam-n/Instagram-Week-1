@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.main-Container{
+    background-color: #fafafa;
+}
+.nav-section{
+    width: auto;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 0.8px solid #dbdbdb;
+    position: sticky;
+    top: 0;
+}
+.nav-wrapper{
+    height: 54px;
+    width:975px;
+    display: flex;
+}
+.nav-logo{
+    flex: 1;
+    width:70px;
+}
+.nav-logo img{
+    padding-top: 16px;
+    padding-left: 22px;
+}
+.nav-search-bar{
+    padding-top: 16px;
+    padding-left: 98px;
+    flex: 1;
+    width:80px;
+}
+.nav-search-bar-img{
+    height:14px;
+    width: 14px;
+    margin-left: -146px;
+}
+.nav-search-bar input{
+    width: 215px;
+    height: 28px;
+    background-color: #fafafa;
+    outline: none;
+    border: none;
+    border: 0.8px solid #dbdbdb;
+    border-radius: 5px;
+}
+.nav-search-bar input::placeholder{
+    font-size: 14px;
+    font-family: Segoe UI;
+    color: #8e8e8e;
+    text-align: center;
+
+}
+.nav-icons{
+    width:240px;
+}
+.home-icon{
+    margin-left: 12px;
+    padding-top: 22px;
+    padding-right: 2px;
+    height: 24px;
+    width: 24px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-container{
+    margin-top: 12px;
+    background-color: transparent;
+    width: 935px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.content-div{  
+    display: flex;
+}
+.feed-main{
+    margin-top: 22px;
+    width: 614px;
+    height:1000px; 
+}
+.story-area{
+    width: 614px;
+    height: 100px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding-top: 8px;
+}
+.story-row{
+    margin-top:0px;
+    width: 614px;
+    height:20px;
+    background-color: #fff;
+}
+.story-div{
+    background-color: #fff;
+    height: 0px;
+    width: 614px;
+    display: flex;
+}
+.single-story-container{
+    overflow:hidden;
+    margin-top:4px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 2px;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+}
+.image-container{
+    margin-left: 8px;
+    width: 66px;
+    height: 66px;
+    background-color: #fff;    
+}
+.image-section{
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 2.3px solid #ec604c;
+}
+.profile-container{
+    width: 74px;
+    height: 14px;
+    background-color: #fff;
+    margin-top: -5px;
+    padding: 3px;
+}
+.profile-name{
+    font-family: Segoe UI;
+    font-size: 12px;
+    color: #262626;
+    padding-left: 6px;
+}
+/* ---------------------------------Story Row Ends--------------------------- */
+.post-main{
+    margin-top: 20px;
+    height: auto;
+    background-color:#fff;
+    font-family: Segoe UI Semibold;
+    border: 0.8px solid #dbdbdb;
+}
+
+.post-header{
+    width: 616px;
+    height:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.image-div{
+    width: 42px;
+    height: 42px;
+}
+.image-icon{
+    flex:0.5;
+    padding: 5px;
+    margin-top: 5px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.post-profile-name{
+    flex:7;
+    padding: 5px;
+    margin-top: 10px;
+    width: 42px;
+    font-size: 14px;
+}
+.option-menu{
+    flex:1;
+    width: 42px;
+    height: 42px;    
+}
+.option-menu img{
+    width: 22px;
+    padding-top: 12px;
+    padding-left: 22px;
+}
+
+
+.post-image{
+    width: 613px;
+    height: 750px;
+    background-color: green;
+}
+.post-icones{
+    width: 616px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+.heart-icon{
+    width: 30px;
+    height: 30px;
+    flex: 0.5;
+}
+.heart-icon img{
+    height: 30px;
+    margin-left: 12px;
+    width: 30px;
+}
+.comment-icon{
+    flex: 0.5;
+    width: 30px;
+    height: 30px;
+}
+.comment-icon img{
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+}
+.share-icon{
+    flex: 5;
+    width:30px;
+    height: 30px;
+}
+.share-icon img{
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+}
+.save-icon{
+    flex: 0.5;
+    width: 30px;
+    height: 30px;
+}
+.save-icon img{
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+}
+
+.post-liked-details{
+    width: auto;
+    height: 30px;
+}
+.post-liked-details img{
+    margin-left: 12px;
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.post-liked-details span{
+    font-family: Segoe UI;
+    font-size: 14px;
+}
+
+.post-profile-owner{
+    width: auto;
+    height: 30px;
+    padding-left: 12px;
+    padding-top:8px;
+}
+.post-profile-owner p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.post-description{
+    width: auto;
+    height: 30px;
+    padding-left: 12px;
+    padding-top:8px;
+}
+#more{
+    color: #262626;
+}
+.post-description p{
+    color: #535353;
+    font-size: 14px;
+}
+.post-main-comment{
+    width: 616px;
+    height: 30px;
+    color: #262626;
+}
+.post-main-comment{
+    padding-left: 12px;
+    font-family: Segoe UI;
+    font-size: 12px;
+}
+.post-main-comment-2{
+    width: 616px;
+    height: 30px;
+    color: #262626;
+}
+.c-owner{
+    color: #262626;
+    font-size: 14px;
+    font-weight: 600;
+}
+.post-main-comment-2 p{
+    padding-left: 12px;
+    font-family: Segoe UI;
+    font-size: 12px;
+}
+.post-time{
+    width: 616px;
+    height: 30px;
+    color: #8e8e8e;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 12px;
+}
+.post-add-comment{
+    width: 616px;
+    height: 35px;
+    display: flex;
+    padding-bottom: 20px;
+} 
+.smily{
+    flex: 0.8;
+    width: 150px;
+}
+.smily img{
+    height: 30px;
+    width: 30px;
+    padding-left: 12px;
+    padding-top: 5px;
+    opacity: 0.5;
+}
+.c-desc{
+    flex: 8;
+    width: 80px;
+}
+#add-c{
+    padding-left: 12px;
+    color: #c2c2c2;
+    padding-top: 10px;
+}
+
+
+/* ------------------------------------Feed Section Ends------------------- */
+
+
+
+.suggestion-main{
+    margin: 10px;
+    margin-top: 17px;
+    margin-left: 18px;
+    width: 293px;
+    height: 407px;
+    background-color:transparent;
+}
+.user-row{
+    font-family: Segoe UI;
+    margin-top: 25px;
+    background-color: transparent;
+    padding-left: 7px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+}
+.user-row-wrapper{
+    display: inline-flex;
+    width: 100%;
+}
+.details-section{
+    margin-top: 8px;
+    margin-left: 8px;
+ }
+.image-part{
+    width: 56px;
+    height: 56px;
+}
+.user-image{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.name-part{
+    width: 175px;
+    height: 36px;
+    background-color: transparent; 
+    padding-left: 4px;   
+}
+.user-name{
+    padding: 2px;
+    width: 175px;
+    height: 18px;
+    background-color: transparent;
+}
+.real-name{
+    width: 175px;
+    height: 18px;
+    background-color: transparent;
+    color: #a9a9a9;
+}
+.link-part{
+    margin-top: 14px;
+    color: #21a2f7;
+    padding: 5px;
+    width: 37px;
+    font-size: 14px;
+    height: 14px;
+}
+.suggested-profiles{
+    margin-top: 35px;
+    padding-left: 10px;
+    color: #a9a9a9;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: Segoe UI Semibold;
+}
+.suggested-profiles span{
+    padding-left: 103px;
+    color: black;
+}
+.suggested-row{
+    font-family: Segoe UI;
+    padding: 0;
+    margin-top: -5px;
+    background-color: transparent;
+    width: 100%;
+    height: 56px;
+    display: flex;
+}
+.suggested-row-wrapper{
+    display: inline-flex;
+    margin-top: 12px;
+    margin-left: 2px;
+    width: 100%;
+}
+.suggested-details-section{
+    margin-top: 2px;
+    margin-left: 8px;
+ }
+.suggested-image-part{
+    width: 56px;
+    height: 56px;
+    padding-left: 18px;
+}
+.suggested-user-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.suggested-name-part{
+    width: 155px;
+    height: 36px;
+    margin-left: -22px;
+    background-color: transparent;   
+}
+.suggested-user-name{
+    width:150px;
+    height: 18px;
+    background-color: transparent;
+}
+.suggested-real-name{
+    width: 150px;
+    height: -2px;
+    background-color: transparent;
+    color: #a9a9a9;
+}
+.suggested-link-part{
+    margin-top: 14px;
+    margin-left: 20px;
+    font-size: 14px;
+    padding: 5px;
+    width: 37px;
+    height: 14px;
+}
+.suggested-link-part a{
+    text-decoration: none;
+    color:#21a2f7 ;
+}
+
